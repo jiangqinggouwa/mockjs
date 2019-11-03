@@ -1,0 +1,7 @@
+{
+    "presets":[ "@babel/env","@babel/react","@babel/typescript"],
+    "plugins": [
+        ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }] // `style: true` 会加载 less 文件
+      ]
+}
+//这里定义一处

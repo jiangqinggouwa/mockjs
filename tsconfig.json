@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+      "moduleResolution": "node",
+      "module": "commonjs",
+      "target": "es6",
+      "noImplicitAny": false,
+      "sourceMap": true,
+      "outDir": "dist",
+      "declaration": true,
+      "jsx": "react",//这句话决定了在react是否能用jsx
+      "noImplicitThis": false,
+      "removeComments": false,
+      "skipDefaultLibCheck": true,
+      "skipLibCheck": true,
+      "allowSyntheticDefaultImports": true,
+      "experimentalDecorators": true,
+      "downlevelIteration": true,
+      "pretty": true
+      // "lib": [
+      //   "dom",
+      //   "es5",
+      //   "scripthost",
+      //   "es2015",
+      //   "es2015.promise",
+      //   "es2015.core",
+      //   "es2015.collection"
+      //   ]
+     },
+     "include": [
+       "src/**/*", "mocker"
+     ],
+     "exclude": [
+       "out",
+       "node_modules"
+     ]
+    }
